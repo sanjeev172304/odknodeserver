@@ -1,0 +1,28 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "imagemin": "^6.0.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^6.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mysql": "^2.15.0",
+    "mysql-events": "0.0.11",
+    "mysql-ssh": "^1.0.6",
+    "node": "^10.10.0",
+    "nodemon": "^1.18.4"
+  }
+}
